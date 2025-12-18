@@ -1,0 +1,60 @@
+body{
+    background-image: url('./images/logo1.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    color: white;
+    margin: 0;
+}
+
+table, tr ,th, td {
+    border: 1px solid rgb(17, 11, 11);
+    border-collapse: collapse;
+    border-color: red;
+    border-radius: 5px;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#col1{
+    background-color: rgb(29, 29, 77);
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+    background-color: gray;
+}
+ul li{
+    margin: 5px;
+    display: inline;
+}
+
+li:hover{
+    color: aqua;
+}
+
+div{
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: auto;
+    color: rgb(255, 7, 7);
+    background-color: rgb(19, 17, 14);
+    border: 2px solid black;
+}
+
+img{
+    width: 100%;
+}
+
+#form{ 
+    background-color: gray;
+    font-weight: bolder;
+    color: black;
+    width: 100%;
+}
